@@ -1,0 +1,6 @@
+user_input = "congratulation"
+
+upper_case_word = user_input.upper()
+
+print("Original:", user_input)
+print("Upper Case:", upper_case_word)
