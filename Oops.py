@@ -1,9 +1,22 @@
-class Student:
-   def __init__(self, name, age):
-        self.name = name
-        self.age = age 
+class Employee:
+    def __init__(self):
+        print('Employ Created')
 
-s1 = Student("Alex", 20)
-print(s1.name)
-print(s1.age)
+        def __del__(self):
+            print('Employee Destroyed')
 
+def Create_obj():
+   
+      print('Making Object...')
+      obj = Employee()
+      print('Function end...')  
+      return obj
+
+
+print('Calling Create obj() function...')
+obj = Create_obj()
+print('Program End...')
+
+
+
+        
