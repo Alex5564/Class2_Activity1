@@ -8,7 +8,7 @@ clock = pygame.time.Clock()
 
 pygame.init()
 
-background_image = pygame.transform.scale(pygame.image.load("sonic.JPEG"), (SCREEN_WIDTH, SCREEN_HEIGHT))
+background_image = pygame.transform.scale(pygame.image.load("mario.png"), (SCREEN_WIDTH, SCREEN_HEIGHT))
 
 font = pygame.font.Font("Time_New_Roman", FONT_SIZE)
 
